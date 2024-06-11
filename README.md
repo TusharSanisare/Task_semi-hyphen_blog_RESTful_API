@@ -84,3 +84,44 @@ The Blog API uses token-based authentication to secure access to its endpoints. 
 - **Description**: Deletes a blog post by its ID.
 - **Authorization Header**: Bearer {JWT token}
 - **Response**: HTTP status 204 (No Content) if successful.
+
+
+# Blog API Documentation
+
+## Overview
+
+This project is built using Java Spring Boot, a popular framework for building web applications. If you're not familiar with Java Spring Boot, don't worry! This README.md file will guide you through the steps to get the project up and running.
+
+## Prerequisites
+
+Before you begin, make sure you have the following installed on your system:
+
+- Java Development Kit (JDK)
+- Apache Maven
+
+## Getting Started
+
+1. **Clone the Repository**: 
+    ```
+    git clone https://github.com/your_username/project_name.git
+    ```
+
+2. **Navigate to the Project Directory**:
+    ```
+    cd project_name
+    ```
+
+3. **Build the Project**:
+    ```
+    mvn clean package
+    ```
+
+4. **Run the Application**:
+    ```
+    java -jar target/project_name.jar
+    ```
+
+5. **Access the Application**:
+    Once the application is running, you can access it by navigating to http://localhost:8080 in your web browser.
+
+
