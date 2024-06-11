@@ -103,7 +103,7 @@ Before you begin, make sure you have the following installed on your system:
 
 1. **Clone the Repository**: 
     ```
-    git clone https://github.com/your_username/project_name.git
+    git clone https://github.com/TusharSanisare/Task_semi-hyphen_blog_RESTful_API
     ```
 
 2. **Navigate to the Project Directory**:
