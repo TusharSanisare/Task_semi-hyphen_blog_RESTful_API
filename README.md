@@ -86,7 +86,7 @@ The Blog API uses token-based authentication to secure access to its endpoints. 
 - **Response**: HTTP status 204 (No Content) if successful.
 
 
-# Blog API Documentation
+# Blog API Project setup
 
 ## Overview
 
