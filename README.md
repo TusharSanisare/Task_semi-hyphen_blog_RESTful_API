@@ -3,17 +3,17 @@ Blog API Documentation--
 Authentication--
 The Blog API uses token-based authentication to secure access to its endpoints. Users are required to obtain a JWT (JSON Web Token) by authenticating with their credentials. This token must be included in the Authorization header of subsequent requests to protected endpoints.
 
-Login--
-URL: /api/auth/login--
-Method: POST--
-Description: Authenticates the user and generates a JWT token.--
-Request Body: json--
-{--
-"username": "admin",--
-"password": "123"--
-}--
-Response:--
-Eg: "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiJ9.rM5wRW6sK5T6ewUsLrXiAyl6_e2oXWg-lp_NiKcKgMc"--
+Login
+URL: /api/auth/login
+Method: POST
+Description: Authenticates the user and generates a JWT token.
+Request Body: json
+{
+"username": "admin",
+"password": "123"
+}
+Response:
+Eg: "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiJ9.rM5wRW6sK5T6ewUsLrXiAyl6_e2oXWg-lp_NiKcKgMc"
 
 Logout
 URL: /api/auth/logout
