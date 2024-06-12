@@ -115,8 +115,15 @@ Before you begin, make sure you have the following installed on your system:
     ```
     mvn clean package
     ```
+    
+4. **change src\main\resources\application.properties file**:
+    ```
+    spring.datasource.url=jdbc:mysql://localhost:3306/[database name]
+    spring.datasource.username=[username: by default its root]
+    spring.datasource.password=[your database password]
+    ```
 
-4. **Run the Application**:
+5. **Run the Application**:
     ```
     java -jar target/project_name.jar
     ```
